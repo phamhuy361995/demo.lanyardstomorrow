@@ -88,6 +88,8 @@ a:hover {
 .block-review {
   max-height: 500px;
   overflow: auto;
+  border: 1px solid #444444;
+  padding: 12px;
 }
 
 .summary-reviews h3 {
