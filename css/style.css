@@ -71,6 +71,17 @@ a:hover {
   border: 4px solid #F5F5F5;
 }
 
+.reviews-section {
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+
+.ekomi-reviews .title h3 {
+  color: #0b0b0b;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 /* Product Page Rating */
 .icon-star-empty:before,
 .icon-star-3:before {
@@ -97,7 +108,7 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 38px;
-  color: #444444;
+  color: #010101;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -138,36 +149,38 @@ a:hover {
 
 /* percent-rate */
 .rating-label {
-  width: 80px;
+  min-width: 70px;
 }
 
 .progress-box {
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
 }
 
 .progress {
-  height: 8px;
+  height: 14px;
   background-color: #e9ecef;
   margin-bottom: 0;
+  border-radius: 10px;
 }
 
 .progress-row {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-
+  gap: 4px;
 }
 
 .progress-percentage {
   font-weight: bold;
-  margin-left: 10px;
-  min-width: 50px;
+  min-width: 45px;
+  text-align: right;
 }
 
 .progress-container {
   flex-grow: 1;
-  margin-right: 10px;
+  margin-left: 6px;
 }
 
 .progress-bar-warning {
@@ -207,7 +220,11 @@ a:hover {
 
 .review-content-box {
   font-weight: bold;
+}
 
+
+.frequently-bought-section {
+  background-color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
